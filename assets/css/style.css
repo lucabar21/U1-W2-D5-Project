@@ -1,0 +1,176 @@
+/* BODY ELEMENTS */
+body {
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* HEADER ELEMENTS */
+header {
+  background-color: #222f3f;
+  padding: 0.5rem;
+}
+
+header img {
+  width: 10%;
+  margin-left: 0.6rem;
+}
+
+/* NAV ELEMENTS */
+nav {
+  background-color: #364759;
+  padding: 0.4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+/* MAIN ELEMENTS */
+main {
+  background-color: #e9edee;
+  width: 100%;
+  text-align: center;
+}
+
+/* DIV ORANGE ELEMENTS */
+div.orange {
+  width: 95%;
+  display: inline-block;
+  background-color: #f56600;
+  color: white;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+div.orange a {
+  font-size: 70%;
+  color: white;
+  text-decoration: none;
+}
+
+/* DIV GIFT ELEMENTS */
+div.gift {
+  margin-top: 1.5rem;
+  width: 95%;
+  height: 170px;
+  color: white;
+  display: inline-block;
+  background-image: url(../images/bg-image.png);
+  background-size: 90%;
+  padding: 0.5rem;
+}
+
+div.gift h2 {
+  font-size: large;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+div.gift a {
+  font-size: x-small;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+div.gift-text {
+  margin-block: 4rem;
+  display: inline-block;
+}
+
+/* DIV CARDS ELEMENTS */
+div.cards {
+  margin-top: 1.5rem;
+  width: 95%;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  padding-inline: 0.5rem;
+  padding-block: 1rem;
+}
+
+div.cards-text {
+  text-align: left;
+  padding-bottom: 0.4rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+div.cards-text h2 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 80%;
+}
+
+div.cards-text a {
+  display: inline-block;
+  margin-left: 0.3rem;
+  font-size: 70%;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(28, 160, 201);
+}
+div.card {
+  margin-inline: 0.6rem;
+  width: 23%;
+  height: 350px;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0px 5px 20px -15px rgba(0, 0, 0, 30);
+}
+
+/* DIV POSTERS ELEMENTS */
+div.posters {
+  width: 96%;
+  margin-top: 1.5rem;
+  display: inline-block;
+  text-align: center;
+}
+div.posters img {
+  width: 100%;
+  background-size: 100%;
+}
+
+div.posters-text h2 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 80%;
+}
+
+div.posters-text a {
+  display: inline-block;
+  margin-left: 0.3rem;
+  font-size: 70%;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(28, 160, 201);
+  margin-bottom: 1.5rem;
+}
+
+/* ASIDE ELEMENTS */
+aside {
+  background-color: #364759;
+  padding: 0.4rem;
+}
+aside a {
+  font-size: x-small;
+  color: white;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+/* FOOTER ELEMENTS */
+footer {
+  background-color: #222f3f;
+  text-align: center;
+  padding-block: 2rem;
+}
+
+footer img {
+  width: 12%;
+}
